@@ -1,0 +1,74 @@
+a {
+    text-decoration: none;
+}
+
+a:hover { text-decoration: underline;}
+  
+h1 { color: #CCD5AE;
+text-align: center;
+}
+#Bestseller {width: 100%;
+    height: 100px;
+    background-image: url("https://images.unsplash.com/photo-1610116306796-6fea9f4fae38?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Ym9va3N8ZW58MHx8MHx8fDA%3D");
+    margin: 0 auto;
+    background-size: cover;}
+
+html { font-family: 'Poppins', sans-serif;
+    color: #6b705c;
+}
+
+body {background-color: #FAEDCD;}
+
+nav {
+    color: #D4A373;
+    width: auto;
+    height: 50px;
+    align-items: center;
+    background-color: #CCD5AE;
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+nav ul { 
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+
+section {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    border-bottom: 1px solid #CCD5AE;
+}
+
+section:first-child{ border-bottom: none;}
+
+section ul {margin-top: 0;}
+
+button{
+    background-color: #CCD5AE;
+    color: #D4A373;
+    border-radius: 15%;
+    border-color: #CCD5AE;
+}
+button:hover{ background-color: #D4A373;
+color: #CCD5AE;
+cursor: pointer;
+
+} 
+
+@media (max-width: 768px){
+    nav, nav ul {flex-direction: column;
+    text-align: center;
+height: auto;}
+   
+}
